@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/schedule_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排定一個工作"/>
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/cancel_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消排定工作"/>
+
+</LinearLayout>
